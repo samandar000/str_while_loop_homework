@@ -6,4 +6,16 @@ def main(s):
     Returns:
         int: return answer
     """
-    return
+    i=0
+    k=0
+
+    while i < len(s):
+        if s[i].isalpha() or s[i].isdigit():
+            k+=1
+        len(s)-1
+        n = len(s) - k
+        i+= 1
+    return n
+
+
+
