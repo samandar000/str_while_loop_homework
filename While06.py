@@ -1,3 +1,6 @@
+from platform import python_revision
+
+
 def main(s):
     """
     A variable of type str is given. Find and return how many consonant letters there are.
@@ -9,6 +12,7 @@ def main(s):
     """
     i=0
     k=len(s)
+    s = s.lower()
     # x = 'a,i,e,o,u,A,O,I,E,U'
     while i < len(s):
         if s[i]=='a':
@@ -26,3 +30,4 @@ def main(s):
     #n=len(s)-k and and s[i]=='i' and s[i]=='e' and s[i]=='o' and s[i]=='u'
             
     return k
+
