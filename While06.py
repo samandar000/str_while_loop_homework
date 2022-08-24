@@ -15,20 +15,10 @@ def main(s):
     s = s.lower()
     # x = 'a,i,e,o,u,A,O,I,E,U'
     while i < len(s):
-        if s[i]=='a':
-            k+=1
-        if s[i]=='i':
-            k+=1
-        if s[i]=='e':
-            k+=1
-        if s[i]=='o':
-            k+=1
-        if s[i]=='u':
+        if s[i]!='a' and s[i]!='u' and s[i]!='i' and s[i]!='o' and s[i]!='e':
             k+=1
         i+=1
-        n=len(s)-k
 
-    #n=len(s)-k and and s[i]=='i' and s[i]=='e' and s[i]=='o' and s[i]=='u'
-            
-    return n
+    return k
+print(main('ausd'))
 
