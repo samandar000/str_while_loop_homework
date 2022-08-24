@@ -8,19 +8,19 @@ def main(s):
         int: return answer
     """
     i=0
-    k=0
+    k=len(s)
     # x = 'a,i,e,o,u,A,O,I,E,U'
     while i < len(s):
-        if s[i]=='a' :
-            k+=1
+        if s[i]=='a':
+            k-=1
         if s[i]=='i':
-            k+=1
+            k-=1
         if s[i]=='e':
-            k+=1
+            k-=1
         if s[i]=='o':
-            k+=1
+            k-=1
         if s[i]=='u':
-            k+=1
+            k-=1
         i+=1
 
     #n=len(s)-k and and s[i]=='i' and s[i]=='e' and s[i]=='o' and s[i]=='u'
