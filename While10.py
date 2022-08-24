@@ -6,4 +6,10 @@ def main(s):
     Returns:
         int: return answer
     """
-    return
+    i=0
+    k=0
+    while i < len(s):
+        if  int(s[i])%2==1:
+            k=k+int(s[i])
+        i +=1
+    return k
