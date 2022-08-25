@@ -20,5 +20,5 @@ def main(s):
         i+=1
 
     return k
-print(main('ausd'))
+
 
