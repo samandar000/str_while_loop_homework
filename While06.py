@@ -12,10 +12,12 @@ def main(s):
     s = s.lower()
     
     while i < len(s):
-        if s[i]!='a' or s[i]!='u' or s[i]!='i' or s[i]!='o' or s[i]!='e':
-            k+=1
+        if s[i].isalpha():
+            if s[i]!='a' and s[i]!='u' and s[i]!='i' and s[i]!='o' and s[i]!='e':
+                k+=1
         i+=1
 
     return k
+
 
 
