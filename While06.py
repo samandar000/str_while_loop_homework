@@ -12,7 +12,7 @@ def main(s):
     """
     i=0
     k=0
-    s = s.lower()
+    #s = s.lower()
     # x = 'a,i,e,o,u,A,O,I,E,U'
     while i < len(s):
         if s[i]!='a' and s[i]!='u' and s[i]!='i' and s[i]!='o' and s[i]!='e':
